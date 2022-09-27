@@ -15,4 +15,4 @@
     --- npm install can restore all those big installs, especially if .gitignore is targeting nodes_modules
     --- app.get(location, function);
         --- app.get is like an event handler 
-        --- in the function in app.get(), you need a req and a resp
+        --- in the function in app.get(), you need a req and a rep
