@@ -12,3 +12,4 @@
     --- app.use(express.static('./server/public'))
         --- app.use sets things up
     --- make sure to make a server folder
+    --- npm install can restore all those big installs, especially if .gitignore is targeting nodes_modules
