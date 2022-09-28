@@ -3,7 +3,8 @@
 ## Useful codes 
 
     --- npm init -y
-    --- npm intsall express
+        --- creates the package.json that lets you download everything else you want
+    --- npm install express
     --- const express = require('express');
     --- const 'app' = express();
     --- app.listen(num, function(){}); ()
@@ -16,3 +17,27 @@
     --- app.get(location, function);
         --- app.get is like an event handler 
         --- in the function in app.get(), you need a req and a rep
+    --- killall -9 node 
+        --- this kills all running node programs
+
+
+## Other useful words
+
+    --- API Request/API Servers
+        --- API stands for "Application Programming Interface"
+        --- 
+    --- http://
+        ---
+    --- Endpoints
+        ---
+    --- AJAX
+        --- Asynchronus javascript and xml 
+        --- Can make network requests
+        --- takes an argument which is an object
+
+
+## HTTP Words
+
+    --- URL
+    --- Method
+    

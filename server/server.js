@@ -7,11 +7,13 @@ let comments =  ['Love the net!', 'No you don\'t', 'I am a robot, I cannot love'
 
 app.use(express.static('./server/public'));
 
+// The GET /comments endpoint
 app.get('/comments', (req, res) => {
     console.log('Let them read comments!');
     res.send(comments);
 });
 
+// The GET /comments/first endpoint
 app.get('/comments/first', (req, res) => {
     res.send(comments[0]);
 })
