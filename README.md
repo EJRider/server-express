@@ -5,6 +5,7 @@
     --- npm init -y
         --- creates the package.json that lets you download everything else you want
     --- npm install express
+    --- npm install body-parser
     --- const express = require('express');
     --- const 'app' = express();
     --- app.listen(num, function(){}); ()
@@ -25,7 +26,6 @@
 
     --- API Request/API Servers
         --- API stands for "Application Programming Interface"
-        --- 
     --- http://
         ---
     --- Endpoints
@@ -40,4 +40,19 @@
 
     --- URL
     --- Method
-    
+
+
+## Status codes
+
+    --- 200
+        --- All good
+    --- 201
+        --- Created
+    --- 304
+        --- Not changed since last refresh
+    --- 400 
+    --- 403
+    --- 404
+        --- Not found
+    --- 500
+        --- Server error
